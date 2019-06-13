@@ -1,0 +1,21 @@
+{
+  "name": "renamer",
+  "version": "1.0.0",
+  "description": "Backend Services in Renaming Files and Folders",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "async": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "csvtojson": "^2.0.8",
+    "express": "*",
+    "express-async-router": "^0.1.15",
+    "rxjs": "^6.5.2"
+  },
+  "author": "Eric Leron",
+  "license": "ISC"
+}
